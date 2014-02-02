@@ -1,0 +1,11 @@
+[Unit]
+Description=Litecoin daemon service
+After=network.target
+
+[Service]
+Type=simple
+User=bitcoin
+ExecStart=/usr/bin/litecoind
+
+[Install]
+WantedBy=multi-user.target
