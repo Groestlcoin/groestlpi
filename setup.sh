@@ -1,4 +1,4 @@
-pacman -S base-devel miniupnpc boost-libs
+pacman -S base-devel miniupnpc boost
 git clone https://github.com/bitcoin/bitcoin.git
 pushd bitcoin/src
 git checkout v0.8.6
