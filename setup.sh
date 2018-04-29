@@ -17,4 +17,4 @@ cp litecoind.service /etc/systemd/system/litecoind.service
 systemctl enable bitcoind
 systemctl start bitcoind
 systemctl enable litecoind
-systemctl start liteocind
+systemctl start litecoind
