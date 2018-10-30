@@ -1,11 +1,11 @@
 [Unit]
-Description=Bitcoin daemon service
+Description=Groestlcoin daemon service
 After=network.target
 
 [Service]
 Type=simple
-User=bitcoin
-ExecStart=/usr/bin/bitcoind
+User=groestlcoin
+ExecStart=/usr/bin/groestlcoind
 
 [Install]
 WantedBy=multi-user.target
